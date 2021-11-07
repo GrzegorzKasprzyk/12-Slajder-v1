@@ -1,0 +1,3074 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>LifeCoders - BusFinderApp</title>
+
+	<meta name="description" content="Projekt realizowany na zaliczenie kursu - Bootcamp C#.Net" />
+	<meta name="keywords" content="Strona główna II" />
+
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Lato|Josefin+Sans&subset=latin,latin-ext' rel='stylesheet'
+		type='text/css'>
+
+
+	<style>
+		#obraz1 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/1.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz2 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/2.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz3 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/3.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz4 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/4.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz5 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/5.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz6 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/6.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz7 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/7.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz8 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/8.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz9 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/9.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz10 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/10.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz11 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/11.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz12 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/12.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz13 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/13.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		#obraz14 {
+			width: 100%;
+			position: fixed;
+			height: 100%;
+			background: url(img/14.jpg) no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		
+		
+		
+		
+		
+		.slider1 {
+			animation: fade 200s infinite;
+			-webkit-animation: fade 200s infinite;
+		}
+
+		.slider2 {
+			animation: fade2 200s infinite;
+			-webkit-animation: fade2 200s infinite;
+		}
+
+		.slider3 {
+			animation: fade3 200s infinite;
+			-webkit-animation: fade3 200s infinite;
+		}
+
+		.slider4 {
+			animation: fade4 200s infinite;
+			-webkit-animation: fade4 200s infinite;
+		}
+
+		.slider5 {
+			animation: fade5 200s infinite;
+			-webkit-animation: fade5 200s infinite;
+		}
+
+		.slider6 {
+			animation: fade6 200s infinite;
+			-webkit-animation: fade6 200s infinite;
+		}
+
+		.slider7 {
+			animation: fade7 200s infinite;
+			-webkit-animation: fade7 200s infinite;
+		}
+
+		.slider8 {
+			animation: fade8 200s infinite;
+			-webkit-animation: fade8 200s infinite;
+		}
+
+		.slider9 {
+			animation: fade9 200s infinite;
+			-webkit-animation: fade9 200s infinite;
+		}
+
+		.slider10 {
+			animation: fade10 200s infinite;
+			-webkit-animation: fade10 200s infinite;
+		}
+
+		.slider11 {
+			animation: fade11 200s infinite;
+			-webkit-animation: fade11 200s infinite;
+		}
+
+		.slider12 {
+			animation: fade12 200s infinite;
+			-webkit-animation: fade12 200s infinite;
+		}
+
+		.slider13 {
+			animation: fade13 200s infinite;
+			-webkit-animation: fade13 200s infinite;
+		}
+
+		.slider14 {
+			animation: fade14 200s infinite;
+			-webkit-animation: fade14 200s infinite;
+		}
+		
+		.slider15 {
+			animation: fade15 200s infinite;
+			-webkit-animation: fade15 200s infinite;
+		}
+		
+		.slider16 {
+			animation: fade16 200s infinite;
+			-webkit-animation: fade16 200s infinite;
+		}
+		
+		.slider17 {
+			animation: fade17 200s infinite;
+			-webkit-animation: fade17 200s infinite;
+		}
+		
+		.slider18 {
+			animation: fade18 200s infinite;
+			-webkit-animation: fade18 200s infinite;
+		}
+		
+		.slider19 {
+			animation: fade19 200s infinite;
+			-webkit-animation: fade19 200s infinite;
+		}
+		
+		.slider20 {
+			animation: fade20 200s infinite;
+			-webkit-animation: fade20 200s infinite;
+		}
+		
+		.slider21 {
+			animation: fade21 200s infinite;
+			-webkit-animation: fade21 200s infinite;
+		}
+		
+		.slider22 {
+			animation: fade22 200s infinite;
+			-webkit-animation: fade22 200s infinite;
+		}
+		
+		.slider23 {
+			animation: fade23 200s infinite;
+			-webkit-animation: fade23 200s infinite;
+		}
+		
+		.slider24 {
+			animation: fade24 200s infinite;
+			-webkit-animation: fade24 200s infinite;
+		}
+		
+		.slider25 {
+			animation: fade25 200s infinite;
+			-webkit-animation: fade25 200s infinite;
+		}
+		
+		.slider26 {
+			animation: fade26 200s infinite;
+			-webkit-animation: fade26 200s infinite;
+		}
+
+		@keyframes fade {
+			0% {
+				opacity: 1;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+		}
+
+		@keyframes fade2 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 1;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes fade3 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 1;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes fade4 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 1;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes fade5 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 1;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes fade6 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 1;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes fade7 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 1;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes fade8 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 1;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes fade9 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 1;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes fade10 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 1;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes fade11 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 1;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+		}
+		@keyframes fade12 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 1;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes fade13 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 1;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes fade14 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 1;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+			@keyframes fade15 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 1;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+			@keyframes fade16 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 1;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+			@keyframes fade17 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 1;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+			@keyframes fade18 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 1;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+			@keyframes fade19 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 1;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+			@keyframes fade20 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 1;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+			@keyframes fade21 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 1;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+			@keyframes fade22 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 1;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+			@keyframes fade23 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 1;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+			@keyframes fade24 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 1;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+			@keyframes fade25 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 1;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 1;
+			}
+			
+			100% {
+				opacity: 0;
+			}
+			
+			@keyframes fade26 {
+			0% {
+				opacity: 0;
+			}
+
+			4% {
+				opacity: 0;
+			}
+
+			8% {
+				opacity: 0;
+			}
+
+			12% {
+				opacity: 0;
+			}
+
+			16% {
+				opacity: 0;
+			}
+
+			20% {
+				opacity: 0;
+			}
+
+			24% {
+				opacity: 0;
+			}
+
+			28% {
+				opacity: 0;
+			}
+
+			32% {
+				opacity: 0;
+			}
+
+			36% {
+				opacity: 0;
+			}
+
+			40% {
+				opacity: 0;
+			}
+
+			44% {
+				opacity: 0;
+			}
+
+			48% {
+				opacity: 0;
+			}
+
+			52% {
+				opacity: 0;
+			}
+
+			56% {
+				opacity: 0;
+			}
+			
+			60% {
+				opacity: 0;
+			}
+			
+			64% {
+				opacity: 0;
+			}
+			
+			68% {
+				opacity: 0;
+			}
+			
+			72% {
+				opacity: 0;
+			}
+			
+			76% {
+				opacity: 0;
+			}
+			
+			80% {
+				opacity: 0;
+			}
+			
+			84% {
+				opacity: 0;
+			}
+			
+			88% {
+				opacity: 0;
+			}
+			
+			92% {
+				opacity: 0;
+			}
+			
+			96% {
+				opacity: 0;
+			}
+			
+			100% {
+				opacity: 1;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div id="container">
+
+	
+
+		
+
+		<div id="content">
+
+
+			<div class="NZespół">
+				<h1></i>
+					<center><strong> Życzymy miłej podróży <img src="img/buzia.jpg"></i></center>
+				</h1>
+				<div>
+					<div>
+						<div class="slider1" id="obraz1"></div>
+						<div class="slider2" id="obraz2"></div>
+						<div class="slider3" id="obraz3"></div>
+						<div class="slider4" id="obraz4"></div>
+						<div class="slider5" id="obraz5"></div>
+						<div class="slider6" id="obraz6"></div>
+						<div class="slider7" id="obraz7"></div>
+						<div class="slider8" id="obraz8"></div>
+						<div class="slider9" id="obraz9"></div>
+						<div class="slider10" id="obraz10"></div>
+						<div class="slider11" id="obraz11"></div>
+						<div class="slider12" id="obraz12"></div>
+						<div class="slider13" id="obraz13"></div>
+						<div class="slider14" id="obraz14"></div>
+						<div class="slider15" id="obraz15"></div>
+						<div class="slider16" id="obraz16"></div>
+						<div class="slider17" id="obraz17"></div>
+						<div class="slider18" id="obraz18"></div>
+						<div class="slider19" id="obraz19"></div>
+						<div class="slider20" id="obraz20"></div>
+						<div class="slider21" id="obraz21"></div>
+						<div class="slider22" id="obraz22"></div>
+						<div class="slider23" id="obraz23"></div>
+						<div class="slider24" id="obraz24"></div>
+						<div class="slider25" id="obraz25"></div>
+						<div class="slider26" id="obraz26"></div>
+					</div>
+
+
+				</div>
+
+			</div>
+
+
+		</div>
+		
+
+	</div>
+
+</body>
+
+</html>
